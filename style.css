@@ -34,7 +34,7 @@ body {
 
 .instagram-phone img {
     height: 30rem;
-    border-radius: 8%;
+    border-radius: 6%;
     height: 450px;
 }
 
@@ -58,6 +58,8 @@ body {
     width: 100%;
     padding: 1.3rem 0;
     border: 1px solid lightgray;
+    margin: 0 0 10px;
+    border-radius: 3%;
 }
 
 .group:nth-child(1) {
