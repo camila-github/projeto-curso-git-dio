@@ -1,4 +1,4 @@
-### Treinamento de GitHub
+### Treinamento GitHub
 
 - O projeto publicado é referente ao estudo do Curso de Git Hub da Digital Innovation One (https://digitalinnovation.one)
 
