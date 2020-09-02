@@ -4,4 +4,4 @@
 
 - O intuito do Curso é referente o treinamento de comandos do Git para controle de versão e criação de paginas com a utilização de HTML + CSS 
 
--  Foi publicado uma pagina de Logon similar ao Instagram.
+-  Foi publicado uma pagina de Logon similar ao Instagram. Utilizado imagem de animação.
