@@ -1,0 +1,28 @@
+@media (max-width: 750px) {
+    .my-info {
+        display: none;
+    }
+    .header nav {
+        width: 100%;
+        justify-content: space-around;
+        margin: 0;
+    }
+    .status,
+    .member {
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+        margin-top: 11%;
+    }
+    .member {
+        margin-top: 10%;
+        border: 1px solid rgb(231, 227, 227);
+    }
+}
+
+@media (max-width: 450px) {
+    .status,
+    .member {
+        margin-top: 15%;
+    }
+}
