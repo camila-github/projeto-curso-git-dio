@@ -7,7 +7,7 @@
 - O projeto publicado é referente ao estudo do Curso de GitHub e HTML Web Developer da Digital Innovation One [https://digitalinnovation.one](https://digitalinnovation.one)
 
 ## Update
-22-07-2021 : Criação de mais de uma pagina web com redirecionamento de uma pagina a outra, apos clicar na opção "Continue com o avatar". Na nova pagina, aplicado conceitos Flexbox (CSS).
+22-07-2021 : Criação de mais de uma pagina web com redirecionamento de uma pagina a outra, apos clicar na opção "Continue com o avatar". Na nova pagina, aplicado conceitos Flexbox (CSS), Responsividade.
 
 ## Site publicado no link abaixo
   [https://camila-github.github.io/projeto-curso-git-dio/](https://camila-github.github.io/projeto-curso-git-dio/)
