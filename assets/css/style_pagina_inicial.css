@@ -1,3 +1,9 @@
+:root{
+    --primeira-cor: #04073b;
+    --segunda-cor: #000;
+    --terceira-cor: #fff;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,8 +15,8 @@
 .header {
     width: 100%;
     height: 8vh;
-    background: #ffff;
-    border-bottom: 1px solid rgb(231, 227, 227);
+    background: var(--primeira-cor);
+    border-bottom: 2px;
     position: fixed;
     top: 0;
     left: 0;
@@ -20,7 +26,7 @@
 .header nav {
     width: 70%;
     height: 100%;
-    background: #ffff;
+    background: var(--primeira-cor);
     display: flex;
     justify-content: space-between;
     margin: 0 15%;
@@ -32,9 +38,9 @@ nav input {
     width: 24%;
     text-align: center;
     justify-content: center;
-    border: 1px solid rgb(231, 227, 227);
+    border: 2px solid rgb(236, 222, 222);
     outline: none;
-    border-radius: 2px;
+    border-radius: 8px;
 }
 
 nav ul li {
@@ -44,12 +50,14 @@ nav ul li {
 
 .fas,
 .far {
-    color: rgb(44, 43, 43);
-    font-size: 20px;
+    color: var(--terceira-cor);
+    font-size: 18px;
 }
 
 .instagram-logo {
-    height: 2rem;
+    height: 3rem;
+    width: 10rem;
+
 }
 
 
@@ -58,21 +66,22 @@ nav ul li {
     width: 100%;
     height: 100vh;
     position: relative;
+    background: var(--terceira-cor);
 }
 
 .status,
 .members {
     width: 45%;
     margin-left: 15%;
-    background: #ffff;
+    background: var(--terceira-cor);
     display: flex;
     align-items: center;
     padding: 2px;        
     height: 100%;
     margin-top: 6%;
-    border-radius: 2px;
-    border: 1px solid rgb(221, 218, 218);
-    overflow: hidden;
+    border-radius: 8px;
+    border: 2px solid var(--primeira-cor);
+    overflow: auto;
 }
 
 .members {
@@ -90,18 +99,20 @@ nav ul li {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    border: 2px solid #ff416c;
+    border: 2px solid #e60b0b;
     padding: 2px;
 }
 
 .member {
     width: 45%;
     margin-left: 15%;
-    background: #ffff;
-    height: 102vh;
-    margin-top: 3%;
-    border-radius: 2px;
-    border: 1px solid rgb(221, 218, 218);
+    background: var(--terceira-cor);
+    height: 95vh;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    border-radius: 8px;
+    border: 2px solid var(--primeira-cor);
+    padding: 2px;
     
 }
 
@@ -133,14 +144,14 @@ span {
 }
 
 .profile span {
-    margin-left: 70% !important;
+    margin-left: 50% !important;
     font-size: 30px !important;
     margin-bottom: 15px !important;
 }
 
 .photos img {
     width: 100%;
-    height: 450px;
+    height: 400px;
 }
 
 .share {
@@ -155,8 +166,8 @@ span {
 .share i {
     font-size: 15px;
     padding: 10px;
-    color: rgb(70, 67, 67);
-}
+    color: var(--segunda-cor);
+ }
 
 .like {
     width: 70%;
@@ -189,20 +200,23 @@ span {
 
 .right {
     display: flex;
-    margin-top: 1%;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 .info img {
     width: 40px;
     height: 40px;
     margin: 5px;
-    border: 2px solid rgb(6, 29, 233);
+    border: 2px solid rgb(29, 32, 194);
     border-radius: 50%;
     float: left;
     cursor: pointer;
 }
-
-.name h4 {
+.name {
+    width: 100px;
+}
+.name h5 {
     margin-top: 3%;
     color: #222121;
     cursor: pointer;
@@ -215,7 +229,7 @@ span {
 
 .switch {
     margin: 5% 0px 0 25%;
-    color: rgb(10, 177, 243);
+    color: rgb(29, 32, 194);
 }
 
 .switch h4 {
@@ -232,5 +246,15 @@ span {
 .sugg h4 {
     font-weight: 600;
     color: #888586;
+}
+
+
+footer {
+    background: var(--primeira-cor);
+    color: var(--terceira-cor);
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 

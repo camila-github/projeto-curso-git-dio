@@ -9,6 +9,14 @@
 ## Update
 22-07-2021 : Criação de mais de uma pagina web com redirecionamento de uma pagina a outra, apos clicar na opção "Continue com o avatar". Na nova pagina, aplicado conceitos Flexbox (CSS), Responsividade.
 
+07-09-2021: Ajustado responsividade
+
 ## Site publicado no link abaixo
-  [https://camila-github.github.io/projeto-curso-git-dio/](https://camila-github.github.io/projeto-curso-git-dio/)
+  []()
+
+## Vídeo de demonstração do aplicativo
+
+<p align="center">
+   <img src=""/>
+</p>
 
