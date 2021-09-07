@@ -12,7 +12,7 @@
 07-09-2021: Ajustado responsividade
 
 ## Site publicado no link abaixo
-  []()
+  [https://camila-github.github.io/projeto-curso-git-dio/]()https://camila-github.github.io/projeto-curso-git-dio/
 
 ## Vídeo de demonstração do aplicativo
 
