@@ -17,6 +17,6 @@
 ## Vídeo de demonstração do aplicativo
 
 <p align="center">
-   <img src=""/>
+   <img src="https://github.com/camila-github/projeto-curso-git-dio/blob/master/docs/video-.gif"/>
 </p>
 
